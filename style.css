@@ -20,3 +20,9 @@ h1{
     background-color: #F28157;
     color: #03658C;
   }
+
+  .hero {
+    height: 70vh;
+    background: url(images/header_img.jpg);
+    background-size: cover;
+  }
