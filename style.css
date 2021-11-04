@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/rlm6fdu.css");
+
 h1{
     color:red;
 }
@@ -9,6 +11,10 @@ h1{
 
   .topnav a {
     float: left;
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
     color: #F28157;
     text-align: center;
     padding: 14px 16px;
@@ -25,4 +31,33 @@ h1{
     height: 70vh;
     background: url(images/header_img.jpg);
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
+  .title-card {
+    text-align: center;
+    opacity: 85%;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+  button {
+    padding: 10px 15px;
+    border-radius: 25px;
+    background: #F28157;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  button:hover { 
+    background: #084862;
+    color: white;
+    }
+  
