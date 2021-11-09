@@ -1,11 +1,27 @@
 @import url("https://use.typekit.net/rlm6fdu.css");
+body {
+  margin: 0;
+  padding: 0;
+}
 
 h1{
     color:red;
 }
 
+h2 {
+  color:  #F28157;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #03658C;
+  padding: 0 20px;
+
+}
+
 .topnav {
-    background-color: #03658C;
     overflow: hidden;
   }
 
@@ -25,6 +41,11 @@ h1{
   .topnav a:hover {
     background-color: #F28157;
     color: #03658C;
+  }
+
+  .blue-sect {
+    background-image: url('images/star-background.jpg');
+    background-size: cover;
   }
 
   .hero {
@@ -61,3 +82,10 @@ h1{
     color: white;
     }
   
+.entry-req {
+      text-align: center;
+      color: white;
+      width: 80%;
+      padding: 20px 25px;
+      margin: 0 auto;
+    }
