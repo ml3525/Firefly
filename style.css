@@ -74,6 +74,7 @@ p{
   .blue-sect {
     background-image: url('images/star-background.jpg');
     background-size: cover;
+    padding: 25px;
   }
 
   .orange-sect {
@@ -90,6 +91,15 @@ p{
   .hero {
     height: 70vh;
     background: url(images/header_img.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero2 {
+    height: 70vh;
+    background: url(images/camping-hero.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -130,6 +140,30 @@ p{
       line-height: 2;
     }
 
+.entry-req-blue {
+  display: flex;
+  justify-content: center;
+}
+
+
+.req-cards-content {
+  position: relative;
+  margin: 15px;
+
+}
+
+.req-cards-content h2 {
+  text-align: center;
+  padding: 10px;
+  color: white;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,.5);
+}
+
       
 .passes {
   text-align: center;
@@ -156,4 +190,13 @@ p{
   font-size: 3em;
   border-radius: 10px;
   margin: 0;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #F28157;
+  color: white;
+  text-align: center;
 }
