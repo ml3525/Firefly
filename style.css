@@ -152,13 +152,21 @@ p{
 
 }
 
+
+.req-cards-content img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+}
+
 .req-cards-content h2 {
   text-align: center;
   padding: 10px;
   color: white;
   margin: 0;
   position: absolute;
-  bottom: 0;
+  bottom: 4px;
   left: 0;
   right: 0;
   background: rgba(0,0,0,.5);
