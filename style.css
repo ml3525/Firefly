@@ -114,10 +114,17 @@ p{
     opacity: 85%;
     background-color: black;
     color: white;
+    line-height: 40px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
   }
+
+  .title-card-h1 {
+    font-size: 50pt;
+
+  }
+  
 
   button {
     padding: 10px 15px;
@@ -242,4 +249,11 @@ object-fit: cover;
   padding: 20px;
   background-color:#F28157;
   color: white;
+}
+
+
+.amenities {
+  text-align: left;
+  padding: 2em;
+  color: #F8F0E3;
 }
