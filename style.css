@@ -257,3 +257,29 @@ object-fit: cover;
   padding: 2em;
   color: #F8F0E3;
 }
+
+.amenities h2 {
+  color: #F8F0E3; 
+  font-size: 2em;
+  text-align: center;
+}
+
+.amenities h3 {
+  color: #084862; 
+  font-size: 1.5em;
+}
+
+
+
+.packing {
+  color: #F8F0E3;
+
+}
+
+
+.packing h2 {
+  text-align: center;
+  color: #F8F0E3;
+
+
+}
