@@ -109,6 +109,16 @@ p{
     align-items: center;
   }
 
+
+  .hero3 {
+    height: 70vh;
+    background: url(images/artists.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .title-card {
     text-align: center;
     opacity: 85%;
@@ -173,6 +183,7 @@ p{
   margin: 0 auto;
   line-height: 2;
 }    
+
 .camping li {
   list-style-type: none;
   text-align: left;
@@ -281,5 +292,43 @@ object-fit: cover;
   text-align: center;
   color: #F8F0E3;
 
-
 }
+
+.packing li::before {
+  content: "–";
+  padding-right: 5px;
+  padding: 1em;
+}
+
+.packing li {
+  list-style-type: none;
+  text-align: left;
+}
+
+.packing {
+  color: white;
+  width: 80%;
+  padding: 20px 25px;
+  margin: 0 auto;
+  line-height: 2;
+}  
+
+.artist-sect {
+  margin: 0 auto;
+  padding: 2em;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.artist-sect h1 {
+
+  color:  #F28157;
+  font-family: forma-djr-micro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
