@@ -336,6 +336,16 @@ object-fit: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+  border-bottom: 3px solid #F28157;
+}
+
+.artist-sect div {
+  margin: 10px;
+}
+
+.artist-image {
+  text-align: center;
 }
 
 .artist-sect h1 {
@@ -346,9 +356,6 @@ object-fit: cover;
     font-style: normal;
 }
 
-.artist-sect {
-  color: white;
-}
 
 
 @media screen and (min-width: 700px) {
