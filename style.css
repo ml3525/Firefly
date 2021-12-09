@@ -130,6 +130,22 @@ p{
     padding-bottom: 20px;
   }
 
+  .title-card-artists {
+    text-align: center;
+    background-color: #F28157;
+    color: white;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+  .title-card-artists h3 {
+    font-size: 40pt;
+    color: white;
+
+  }
+
   .title-card-h1 {
     font-size: 50pt;
 
@@ -330,5 +346,13 @@ object-fit: cover;
     font-style: normal;
 }
 
+.artist-sect {
+  color: white;
+}
 
 
+@media screen and (min-width: 700px) {
+  .wrapper {
+    display: block;
+  }
+}
