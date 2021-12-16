@@ -173,6 +173,12 @@ p{
 
 }
 
+.artist-sect-button:hover {
+  background:lightskyblue;
+  color: white;
+
+}
+
 
 
 .entry-req {
