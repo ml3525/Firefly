@@ -93,7 +93,7 @@ p{
 
   .hero {
     height: 70vh;
-    background: url(images/header_img.jpg);
+    background: url(images/Header_img.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
