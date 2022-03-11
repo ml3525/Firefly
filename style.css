@@ -7,6 +7,15 @@ body {
   padding: 0;
 }
 
+.nav-logo {
+	height: 57px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
 h1{
     color:#F28157;
     font-family: synthemesc, sans-serif;
@@ -78,13 +87,15 @@ p{
     background-image: url('images/star-background.jpg');
     background-size: cover;
     padding: 25px;
+   
   }
 
   .orange-sect {
     background-image: url('images/orngstar.jpg');
     background-size: cover;
     text-align: center;
-    padding: 1em;
+    padding: 25px;
+    
   }
 
   .orange-sect h2 {
@@ -420,4 +431,8 @@ padding: 35px;
 padding-top: 40px;
 text-align: center;
 
+}
+
+footer {
+padding: 20px;
 }
