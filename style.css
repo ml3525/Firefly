@@ -7,12 +7,19 @@ body {
   padding: 0;
 }
 
-.nav-logo {
-	height: 57px;
+.logo {
+  height: 57px;
+  width: 180px;
+  padding: 1em;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 
+}
+
+
+.logo img {
+  width: 100%;
 }
 
 
