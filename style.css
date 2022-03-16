@@ -128,7 +128,7 @@ p{
   }
 
   .hero {
-    height: 70vh;
+    height: 100vh;
     background: url(images/Header_img.jpg);
     background-size: cover;
     display: flex;
@@ -138,20 +138,22 @@ p{
 
   .hero2 {
     height: 70vh;
-    background: url(images/camping-hero.jpg);
+    background: url(images/Camping_fixed.jpg);
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
+    background-position: center ;
+   
+   background-repeat: no-repeat;
+   
   }
 
 
   .hero3 {
     height: 70vh;
-    background: url(images/artists.jpg);
+    background: url(images/artists-fixed.jpg);
     background-size: cover;
     display: flex;
-    justify-content: center;
+    background-position: center ;
     align-items: center;
   }
 
